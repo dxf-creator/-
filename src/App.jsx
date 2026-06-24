@@ -287,10 +287,6 @@ export default function App() {
                   这里不再直接平铺截图，而是改成更适合作品集阅读的案例结构。每个项目先展示关键信息，再通过展开方式查看界面和系统画面，让信息层级更清晰。
                 </p>
               </div>
-              <div className="projects-note">
-                <strong>当前已接入真实截图</strong>
-                <p>小苹果精选 3 张、食尚鲜送 3 张、易校校园二手交易平台 4 张，后续还可以继续补充仓库地址与在线演示。</p>
-              </div>
             </div>
 
             <div className="project-list">
@@ -395,7 +391,7 @@ export default function App() {
                         <p>{project.takeaway}</p>
                       </div>
 
-                      {expanded && index !== 0 ? (
+                      {expanded ? (
                         <div className={galleryDrawerClass}>
                           {isCompactGallery ? (
                             <div className={galleryGridClass}>
@@ -481,7 +477,7 @@ export default function App() {
         <section className="contact-section" id="contact">
           <div className="container contact-wrap">
             <span className="section-tag">Let&apos;s Connect</span>
-            <h2>如果你正在寻找一位愿意持续学习、能够独立推进前端实现的软件开发工程师，欢迎联系我。</h2>
+            <h2>如果你正在寻找一位专注前端实现、能够独立推进项目的开发者。希望能给一个展示的机会。</h2>
             <p>
               我希望参与 Web 前端开发、校园项目、初级软件工程岗位以及能够持续积累真实业务经验的机会。
             </p>
