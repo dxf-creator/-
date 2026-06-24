@@ -283,9 +283,6 @@ export default function App() {
               <div className="section-head">
                 <span className="section-tag">Selected Works</span>
                 <h2>项目经历</h2>
-                <p>
-                  这里不再直接平铺截图，而是改成更适合作品集阅读的案例结构。每个项目先展示关键信息，再通过展开方式查看界面和系统画面，让信息层级更清晰。
-                </p>
               </div>
             </div>
 
